@@ -1,0 +1,38 @@
+/* .con {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+   */
+
+   .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+.card {
+    width: 250px;
+    margin-top: 25px;
+
+}
+
+.head {
+    color: white;
+    text-align: center;
+    
+}
+
+.body {
+text-align: center;
+
+}
+
+.btn1 {
+    margin-right: 10px;
+}
+
+.btn2 {
+    margin-left: 10px;
+}

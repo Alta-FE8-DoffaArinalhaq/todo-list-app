@@ -1,0 +1,41 @@
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  /* .con {
+    margin-top: 30px;
+  } */
+  
+
+/* .formulir {
+  align-content: center;
+  width: 500px;
+} */
+
+.form {
+  color: white;
+  background-color: black;
+  width: 400px;
+  height: 150px;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.label {
+  width: 100px;
+  padding-top: 20px;
+}
+
+.ctrl {
+  width: 300px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.btn {
+    margin-top: 10px;
+}

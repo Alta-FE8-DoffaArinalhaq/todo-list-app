@@ -1,14 +1,22 @@
-import React from "react";
+import React from 'react';
+import '../style/NavBar.css';
+import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <>
-      <div className="bg-slate-600 h-10 w-screen">
-        <p className="text-center font-bold text-white text-lg pt-1">
-          Todo List
-        </p>
-      </div>
-    </>
+    <div>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand className="navbrand">MOVIES</Navbar.Brand>
+          <Nav className="me-auto ">
+            <Link to="/" className="home">
+              Home
+            </Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </div>
   );
 };
 
