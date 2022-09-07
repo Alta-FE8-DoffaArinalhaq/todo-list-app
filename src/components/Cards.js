@@ -2,7 +2,6 @@ import React from 'react';
 import axios from 'axios';
 import '../style/Card.css';
 import { Card, Button } from 'react-bootstrap';
-// import { Link } from "react-router-dom";
 
 const Cards = ({ content, detail, id, handleDelete }) => {
   return (

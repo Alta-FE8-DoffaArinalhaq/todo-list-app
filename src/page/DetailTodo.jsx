@@ -6,8 +6,6 @@ import { useLocation } from 'react-router-dom';
 
 const DetailTodo = ({ id, content, description }) => {
   const location = useLocation();
-  // const [subject,setSubject]=useState('');
-  // const [deskripsi,setDeskripsi]=useState('');
   const [wadah, setWadah] = useState([]);
   const [konten, setKonten] = useState('');
 
